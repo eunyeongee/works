@@ -367,7 +367,10 @@ footer .f_wrap .f1 .row address {
     margin-top:5%;
 }
 
-
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width:40px;
+    height:40px;
+}
 
 
 
