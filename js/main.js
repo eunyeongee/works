@@ -49,7 +49,7 @@ $(document).ready(function(){
           
           
     //nav 주메뉴에 마우스 올리면 서브메뉴 나타나고 ,서브배경 나타남 
-    $('nav > ul >li >a').hover(function(){
+    $('nav > ul >li').hover(function(){
         $('.sub').stop().slideDown();
         
         $('.sub_bg').stop().slideDown();
